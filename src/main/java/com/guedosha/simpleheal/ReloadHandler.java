@@ -18,7 +18,7 @@ public class ReloadHandler implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         String reloaded = ChatColor.translateAlternateColorCodes('&', "&a[SimpleGodMode] &fSuccessfully Reloaded Config");
         if (sender instanceof Player p) {
-            if (!p.hasPermission("simplegodmode.reload")) {
+            if (!p.hasPermission("simpleheal.reload")) {
                 p.sendMessage(ChatColor.translateAlternateColorCodes('&', getConfig().getString("messages.no-permission").replace("%target%", p.getName()).replace("%caster", p.getName())));
                 return true;
             }
