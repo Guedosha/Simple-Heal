@@ -8,3 +8,6 @@ Permissions: <code>simpleheal.use</code> to use the heal command and <code>simpl
 1. Hightly customizable
 2. Support for placeholders and custom colors in the config
 3. Most importantly, it just works. Simply put the plugin in your plugins folder, restart the server, and it's ready without any configuration or bloat
+## Images
+![Heal message](https://cdn.modrinth.com/data/cached_images/6904f13f60eca5e03dcfcceb8e6efc18a08a2a91.png)
+![Usage](https://cdn.modrinth.com/data/cached_images/87a639984fb914b247b8ae849b2b20453f158dec.png)
