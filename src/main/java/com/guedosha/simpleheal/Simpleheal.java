@@ -1,5 +1,7 @@
 package com.guedosha.simpleheal;
 
+import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class Simpleheal extends JavaPlugin {
@@ -8,11 +10,12 @@ public final class Simpleheal extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getCommand("heal").setExecutor(new HealCommand());
-    }
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
+        Bukkit.getConsoleSender().sendMessage(ChatColor.translateAlternateColorCodes('&', "&a[SimpleHeal] &fSuccessfully Loaded Config!"));
 
-    public static Simpleheal getPlugin() {
-        return plugin;
+        getCommand("heal").setExecutor(new HealCommand());
+        getCommand("reload").setExecutor(new ReloadHandler());
     }
 
 }
