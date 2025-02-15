@@ -1,0 +1,32 @@
+# DO NOT MESS WITH THIS VALUE!
+config-version: 1
+# DO NOT MESS WITH THIS VALUE!
+
+# ============Simple God Mode Config============
+remove-effects: false
+# Should the one's potion effects be removed when they are healed?
+
+messages:
+  # The following values support the placeholders %target% and %caster% and Minecraft color codes(See how to use those on the Minecraft wiki: https://minecraft.fandom.com/wiki/Formatting_codes?file=Minecraft_Formatting.gif)
+  # %target% will be replaced with the name of the "target" of the command i.e. the person that you are trying to use the command on.
+  # %caster% will be replaced with the name of the person who ran the command.
+
+  no-permission: "&cYou do not have permission to execute this command!"
+  # The message sent when the person attempting to run the command doesn't have permission.
+  # default: "&4You do not have permission to execute this command!"
+
+  usage: "&cUsage: /heal <playername> or /heal"
+  # The message sent when the command is run with incorrect syntax.9
+  # default: "&cUsage: /godmode <playername>"
+
+  player-offline: "&f%target% &cis not online!"
+  # The message sent when the specified player is not on the server or doesn't exist.
+  # default: "&f%target% &4is not online!"
+
+  target-healed: "&aYou have been healed"
+  # The message sent to the target of the command after being healed, also when one heals themself.
+  # default: "&aGodmode enabled"
+
+  caster-healed: "&aHealed &f%target%"
+  # The message sent to the person who ran the command when another person is healed.
+  # default: "&aHealed &f%target%"
