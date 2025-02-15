@@ -5,7 +5,7 @@ Usage: <code>/heal &lt;playername&gt;</code> or <code>/heal</code> to use the co
 
 Permissions: <code>simpleheal.use</code> to use the heal command and <code>simpleheal.reload</code> to reload the config
 ## Features
-1. Hightly customizable
+1. Hightly customizable(see <a href="https://github.com/Guedosha/Simple-Heal/blob/main/config.yml">**config**</a>)
 2. Support for placeholders and custom colors in the config
 3. Most importantly, it just works. Simply put the plugin in your plugins folder, restart the server, and it's ready without any configuration or bloat
 ## Images
