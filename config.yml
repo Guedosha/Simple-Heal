@@ -2,7 +2,7 @@
 config-version: 1
 # DO NOT MESS WITH THIS VALUE!
 
-# ============Simple God Mode Config============
+# ============Simple Heal Config============
 remove-effects: false
 # Should the one's potion effects be removed when they are healed?
 
@@ -11,13 +11,13 @@ messages:
   # %target% will be replaced with the name of the "target" of the command i.e. the person that you are trying to use the command on.
   # %caster% will be replaced with the name of the person who ran the command.
 
-  no-permission: "&cYou do not have permission to execute this command!"
+  no-permission: "&4You do not have permission to execute this command!"
   # The message sent when the person attempting to run the command doesn't have permission.
   # default: "&4You do not have permission to execute this command!"
 
   usage: "&cUsage: /heal <playername> or /heal"
   # The message sent when the command is run with incorrect syntax.
-  # default: "&cUsage: /godmode <playername>"
+  # default: "&cUsage: /heal <playername> or /heal"
 
   player-offline: "&f%target% &cis not online!"
   # The message sent when the specified player is not on the server or doesn't exist.
@@ -25,7 +25,7 @@ messages:
 
   target-healed: "&aYou have been healed"
   # The message sent to the target of the command after being healed, also when one heals themself.
-  # default: "&aGodmode enabled"
+  # default: "&aYou have been healed"
 
   caster-healed: "&aHealed &f%target%"
   # The message sent to the person who ran the command when another person is healed.
