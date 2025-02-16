@@ -1,13 +1,16 @@
 name: Simpleheal
 version: '${project.version}'
 main: com.guedosha.simpleheal.Simpleheal
-api-version: 1.19
+api-version: 1.16
 authors: [ Guedosha ]
-description: Adds a simple /heal command
+description: A simple yet highly configurable Spigot plugin to heal you
 website: https://www.guedosha.com
 commands:
   heal:
     description: Heals you to full health
-    usage: /<command>
+    usage: /<command>, /<command> <target>
+    permission: simpleheal.use
   reload:
     description: Reloads the config
+    usage: /simpleheal:reload
+    permission: simpleheal.reload

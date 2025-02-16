@@ -16,7 +16,7 @@ messages:
   # default: "&4You do not have permission to execute this command!"
 
   usage: "&cUsage: /heal <playername> or /heal"
-  # The message sent when the command is run with incorrect syntax.9
+  # The message sent when the command is run with incorrect syntax.
   # default: "&cUsage: /godmode <playername>"
 
   player-offline: "&f%target% &cis not online!"
