@@ -9,8 +9,6 @@ commands:
   heal:
     description: Heals you to full health
     usage: /<command>, /<command> <target>
-    permission: simpleheal.use
   reload:
     description: Reloads the config
     usage: /simpleheal:reload
-    permission: simpleheal.reload
